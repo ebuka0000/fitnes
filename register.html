@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>fitness.com</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="register-header">
+      <nav>
+        <a href="index.html"><img src="images/gymlogo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index2.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="class.html">classes</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Register here</h1>
+  
+  </section>
+  
+  <!----cblog page content---->
+  
+
+
+
+        <div class="comment-box">
+          <h3>Sign up!</h3>
+
+          <form class="comment-form">
+            <input type="text" placeholder="Enter your username.">
+            <input type="email" placeholder="Enter a valid email.">
+            <input type="password" placeholder="Enter a strong password.">
+            <input type="gender" placeholder="Gender">
+            <button type="submit" class="hero-btn red-btn">Sign UP</button>
+          </form>
+        </div>
+      </div>
+    
+    </div>
+    
+  </section>
+  
+  <section class="home-bar">
+  
+  <a href="index.html" class="hero-btn red-btn">BACK TO HOME PAGE</a>
+  </section>
+  
+  <!-----gymfacilities----->
+ 
+  
+<!----testimonials---->
+  
+  
+  
+  
+  
+  
+  
+  <!----footer---->
+  
+  <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>we are (name of website), we help and encourage our students to have a fit and healthy lifestyle by<br>providin by providing for them all neccessary equipment and profesional instructors</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-teitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with love from group 9</p>
+  </section>
+  
+  
+  
+  
+  
+ <!---JavaScript for Toggle Menue--->
+  <script>
+    
+    var navLinks  document.getElementById('navLinks');
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+    
+  </script>
+  
+</body>
+</html>
